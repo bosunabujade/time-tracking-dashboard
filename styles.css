@@ -1,0 +1,233 @@
+
+body {
+    align-items: center;
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 375px;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 90%;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+.profile {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+}
+
+.profile-pic {
+    background-color: hsl(246, 80%, 60%);
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.profile-pic img {
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 30px 10px;
+    width: 18%;
+}
+
+h1 {
+    color: hsl(236, 100%, 87%);
+    font-size: 13px;
+    font-weight: 300;
+    width: 55%;
+}
+
+h1 span {
+    color: white;
+    font-size: 24px;
+}
+
+.time-span  {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.time-span button {
+    background-color: transparent;
+    border: none;
+    color: hsl(236, 100%, 87%);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.time-span button:hover {
+    color: white;
+    font-weight: 400;
+}
+
+.time-span button:active {
+    color: white;
+    font-weight: 400;
+}
+
+
+.icons  {
+    border-radius: 20px;
+    text-align: end;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    z-index: -1;
+}
+
+.play,
+.study,
+.exercise,
+.social,
+.care  {
+    height: 175px;
+}
+
+.work {
+    height: 160px;
+    position: relative;
+    top: -20px;
+}
+
+
+.work .icons {
+    background-color: hsl(15, 100%, 70%);
+    
+}
+
+.work .icons img {
+    position: relative;
+    padding-right: 15px;
+    object-fit: cover;
+    object-position: 0 -10px;
+    width: 24%;
+}
+
+.stats {
+    align-items: center;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+}
+
+.ellipsis {
+    fill: hsl(236, 100%, 87%);
+    margin: 5px 0 5px 10px;
+    width: 7%;
+}
+
+h3 {
+    font-size: 28px ;
+    font-weight: 300;
+    margin: 5px 0 0 0;
+    width: 50%;
+}
+
+p {
+    color: hsl(236, 100%, 87%);
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    width: 38%;
+}
+
+.play .icons {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.play .icons img {
+    position: relative;
+    padding-right: 15px;
+    object-fit: cover;
+    object-position: 0 -10px;
+    width: 24%;
+}
+
+.study .icons {
+    background-color: hsl(348, 100%, 68%);
+}
+
+.study .icons img {
+    position: relative;
+    padding-right: 15px;
+    object-fit: cover;
+    object-position: 0 -10px;
+    width: 24%;
+}
+
+.exercise .icons {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.exercise .icons img {
+    height: 85px;
+    position: relative;
+    padding-right: 15px;
+    object-fit: contain;
+    object-position: 0 0;
+    width: 25%;
+}
+
+.social .icons {
+    background-color: hsl(264, 64%, 52%) ;
+}
+
+.social .icons img {
+    height: 85px;
+    position: relative;
+    padding-right: 15px;
+    object-fit: cover;
+    object-position: 0 -15px;
+    width: 23%;
+}
+
+.care .icons {
+    background-color: hsl(43, 84%, 65%);
+
+}
+
+.care .icons img {
+    height: 85px;
+    position: relative;
+    object-fit: none;
+    object-position: 0 -10px;
+    width: 24%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
